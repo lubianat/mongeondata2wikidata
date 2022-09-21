@@ -1,0 +1,6 @@
+SELECT DISTINCT ?author ?open_alex
+WHERE 
+{
+  [] wdt:P50 ?author . 
+  ?author wdt:P10283 ?open_alex . 
+}
